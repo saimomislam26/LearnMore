@@ -1,10 +1,10 @@
 import React from 'react';
+import img from './image/img.png'
+import Common from './Common.js';
 
 const About = () => {
     return (
-        <div >
-            <h1 className="text-center">Welcome to About page</h1>
-        </div>
+        <Common name="Welcome to About Page " btn_name="Get Contact" visit="/Contact" img_src={img} />
     );
 }
 
